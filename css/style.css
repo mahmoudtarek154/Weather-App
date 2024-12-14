@@ -1,0 +1,107 @@
+.Weathera{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.logoweather{
+    width: 150%;
+}
+.navbar{
+    background-color: #393e46;
+}
+.navbar i{
+    color:#0092ca ;
+}
+.weatherbackground{
+    background-position: center;
+    background-size: cover;
+    background-image: url(../image/tornado-in-stormy-weather-uubp1aloyxznsk7z.jpg);
+}
+.searchinput{
+    background-color: #393e46;
+    border: 2px solid #393e46;
+
+}
+
+.searchinput:focus{
+
+    background-color: #393e46;
+    border: 2px solid #393e46;
+    outline: none;
+}
+.searchbutton{
+    background-color: #0092ca;
+}
+.searchbutton:focus{
+    background-color: #0092ca;
+
+}
+.searchbutton:hover{
+    background-color: #0092ca;
+}
+ .form-control::placeholder{
+    color: rgb(193, 186, 186);
+}
+.one{
+    background-color:#0091ca92;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.two{
+    background-color: #eef2e2;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.two2{
+    background-color: #eef2e2;
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+.weatherbackground i {
+
+    color:#0092ca;
+}
+.searchinput2{
+    background-color: #4e545e;
+    border: 2px solid #4e545e;
+
+}
+.searchinput2:focus{
+
+    background-color: #4e545e;
+    border: 2px solid #4e545e;
+    outline: none;
+}
+.searchbutton2{
+    background-color: #0092ca;
+}
+.searchbutton2:focus{
+    background-color: #0092ca;
+
+}
+.searchbutton2:hover{
+    background-color: #0092ca;
+}
+.containerthree{
+    background-color: #393e46;
+ 
+
+}
+
+.iconsdiv i {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#2f3339 ;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 25%;
+    color: #0092ca;
+    border-radius: 200px;
+  transition: 0.3s;
+}
+.iconsdiv i:hover{
+    background-color:#0092ca ;
+    color: white;
+
+}

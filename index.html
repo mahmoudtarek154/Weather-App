@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg p-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <i class="fa-solid fa-cloud fs-1"></i>
+          </a>
+          <div class="ms-3">
+            <p class="fs-3 mb-0 fw-semibold text-white">Weather</p>
+            <p class="text-white-50">tagline goes here</p>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-5">
+                <a
+                  class="nav-link active text-white-50"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link text-white-50" href="#">News</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link text-white-50" href="#">Live Cameras</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link text-white-50" href="#">Photos</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link text-white-50" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="weatherbackground pb-5">
+      <div class="input-group mb-3 w-50 mx-auto p-5">
+        <input
+          type="text"
+          class="form-control searchinput p-3 text-white"
+          placeholder="Find your Location..."
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn searchbutton text-white px-4"
+          type="button"
+          id="button-addon2"
+        >
+          Find
+        </button>
+      </div>
+      <div class="row g-0 container w-75 m-auto bg-body">
+        <div class="col-md-4 weather-one text-center">
+          <div class="weather-one-A py-3 one"></div>
+          <div class="two">
+            <div class="weather-one-B">
+              <p class="weather-one-country"></p>
+              <h2 class="weather-one-temprature"></h2>
+              <img src="" class="weather-one-bigicon" />
+              <p class="weather-one-status"></p>
+              <div class="d-flex justify-content-center">
+                <div class="ms-3">
+                  <i
+                    class="fa-solid fa-cloud-rain weather-one-status-rain ms-2"
+                  ></i>
+                </div>
+                <div class="ms-3">
+                  <i
+                    class="fa-solid fa-droplet weather-one-status-humidity ms-2"
+                  ></i>
+                </div>
+                <div class="ms-3">
+                  <i class="fa-solid fa-wind weather-one-status-wind ms-2"> </i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 weather-two text-center">
+          <div class="weather-two-A py-3 one"></div>
+          <div class="two2">
+            <div class="weather-two-B">
+              <img src="" class="weather-two-bigicon" />
+              <h3 class="weather-two-temprature"></h3>
+              <p class="weather-twoB-temprature"></p>
+              <p class="weather-two-status"></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 weather-three text-center">
+          <div class="weather-three-A py-3 one"></div>
+          <div class="two2">
+            <div class="weather-three-B">
+              <img src="" class="weather-three-bigicon" />
+              <h3 class="weather-three-temprature"></h3>
+              <p class="weather-threeB-temprature"></p>
+              <p class="weather-Three-status"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="containerthree 0">
+      <div
+        class="d-flex flex-md-row flex-column container-md py-3 justify-content-md-evenly justify-content-center align-items-center"
+      >
+        <div class="input-group w-50 py-5">
+          <input
+            type="text"
+            class="form-control searchinput2 p-3"
+            placeholder="Find your Location..."
+            aria-label="Recipient's username"
+            aria-describedby="button-addon2"
+          />
+          <button
+            class="btn searchbutton2 text-white px-4"
+            type="button"
+            id="button-addon2"
+          >
+            Subscribe
+          </button>
+        </div>
+        <div class="iconsdiv">
+          <a href=""> <i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""> <i class="fa-brands fa-twitter"></i></a>
+          <a href=""> <i class="fa-brands fa-google-plus-g"></i></a>
+          <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
